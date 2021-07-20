@@ -1,0 +1,41 @@
+// install nestjs framework
+sudo npm i -g @nestjs/cli
+
+// create nestjs basic setup
+nest new project-name
+
+// update command for npm or nodejs
+ sudo npm install -g npm
+
+ // create module
+ nest g mo shopping
+
+  // create component
+ nest g co shopping
+
+ // create service
+ nest g s shopping
+
+ // start nestjs
+ npm run strat:dev
+
+
+ // install typorm with mongodb using nestjs
+ npm i --save @nestjs/typeorm typeorm @types/mongodb mongodb
+
+ // if using url for mongodb thn use it url for configuration
+ url:'mongodb+srv://demo1:demo123@cluster0.kjda8.mongodb.net/<dbname>?retryWrites=true&w=majority',
+
+
+ //Reactjs
+ npx create-react-app first-react-app
+
+ // Git
+
+ git status
+ git add .
+ git commit -m  "message"
+ git remote add origin https://github.com/preeet1000/color-shop.git
+ git push -u origin master
+git remote remove origin
+
